@@ -22,7 +22,7 @@ const IndexPage: NextPage<Props> = ({ initialImageUrl }) => {
             <button
                 onClick={handleClick}
                 className={styles.button}
-            >You can see a cat</button>
+            >Nyan</button>
             <div className={styles.frame}>
                 {loading || <img src={imageUrl} className={styles.img} />}
             </div>
